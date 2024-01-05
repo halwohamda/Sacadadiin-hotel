@@ -1,0 +1,97 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ROLES{
+  admin 
+  user
+  
+}
+model Users{
+  userid Int @id @default(autoincrement())
+  email String @unique
+  password String
+  joinedAt DateTime @default(now())
+  roles ROLES @default(user)
+}
+model Hotel{
+  hotel_id Int @id @default(autoincrement())
+  name String
+  address String
+  phone String
+  email String @unique
+  stars Int
+  checkin DateTime @default(now())
+  checkout DateTime @default(now())
+  emplooyee Emplooyee []
+  room Room []
+}
+model Emplooyee{
+  emplooye_id Int @id @default(autoincrement())
+  firstName String
+  middleName String
+  lastName String
+  postion String
+  scalary String
+  phone String
+  email String
+  HireDate DateTime
+  hotel_id Int
+  hotels Hotel @relation(fields: [hotel_id],references: [hotel_id])
+}
+model RoomType{
+  type_id Int @id @default(autoincrement())
+  name String
+  Description String
+  PricePerNight Decimal
+  capacity Int
+  room Room []
+}
+model Room{
+  room_id Int @id @default(autoincrement())
+  hotel_id Int
+  type_id Int
+  booking_id Int
+  status String
+  hotel Hotel @relation(fields: [hotel_id],references: [hotel_id])
+  room_type RoomType @relation(fields: [type_id],references: [type_id])
+  booking Booking @relation(fields: [booking_id],references: [booking_id])
+}
+model Booking {
+  booking_id Int @id @default(autoincrement())
+  room_number Int
+  checkinginDate DateTime 
+  checkoutDate DateTime
+  totalPrice DateTime
+  room Room []
+  payments Payment[]
+  guest_id Int
+  guests Guest @relation(fields: [guest_id],references: [guest_id])
+
+
+}
+model Guest{
+  guest_id Int @id @default(autoincrement())
+  firsName String
+  lastName String
+  phone String
+  email String @unique
+  
+  booking Booking[]
+}
+model Payment{
+  payment_id Int @id @default(autoincrement())
+  amount Decimal
+  paymentDate DateTime @default(now())
+  paymentMethod String
+  booking_id Int 
+  booking Booking @relation(fields: [booking_id],references: [booking_id])
+}
