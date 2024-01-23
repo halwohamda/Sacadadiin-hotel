@@ -6,7 +6,13 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import Dashboard from './Components/Dashboard.jsx';
 import Hotel from './Components/Pages/Hotel/Hotel.jsx'
 import Employee from './Components/Pages/Employee/Employee.jsx'
-import Room from './Components/Pages/Rooms/Room.jsx'
+import Room from './Components/Pages/Room/Room.jsx'
+import Booking from './Components/Pages/Booking/Booking.jsx';
+import Guest from './Components/Pages/Guest/Guest.jsx';
+import Payment from './Components/Pages/Payment/Payment.jsx';
+import Login from './Components/Pages/Login/Login.jsx';
+import Logout from './Components/Pages/Logout/Logout.jsx';
+import RoomType from './Components/Pages/RoomType/RoomType.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -29,9 +35,30 @@ const router = createBrowserRouter([
         element: <Room />
       },
       {
-        path: '/Booking',
-        element: <Room />
+        path: '/RoomType',
+        element: <RoomType />
       },
+      {
+        path: '/Booking',
+        element: <Booking />
+      },
+      {
+        path: '/Guest',
+        element: <Guest />
+      },
+      {
+        path: '/Payment',
+        element: <Payment />
+      },
+      {
+        path: '/Login',
+        element: <Login />
+      },
+      {
+        path: '/Logout',
+        element: <Logout />
+      },
+     
     ]
   }
 ])
