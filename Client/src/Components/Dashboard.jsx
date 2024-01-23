@@ -8,6 +8,7 @@ const Dashboard = () => {
       <div className="header bg-orange-600 p-4">
       <h1 className='text-white text-4xl text-center font-extrabold capitalize'>sacadadiin hotel</h1>
       </div>
+      <div className="mainsection flex">
       <div className="menus bg-orange-600 w-[150px] p-6">
         <nav>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
@@ -45,6 +46,10 @@ const Dashboard = () => {
               <Link to='/Logout'>Logout</Link>
             </ul>
         </nav>
+      </div>
+      <div className="img">
+        <img src="./public/Hotel.webp" alt="" className='w-[1130px] h-[450px]' />
+      </div>
       </div>
       <div className="footer flex justify-between bg-orange-600  p-8 text-white">
        <div className="copy">

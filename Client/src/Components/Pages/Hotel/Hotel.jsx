@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <div>
     <div className="container -translate-y-80">
-         <h1 className='text-center text-3xl text-indigo-600'>Hello Home</h1>
+         <h1 className='text-center text-3xl  bg-gradient-to-r from-orange-600 to-orange-200 w-[400px] translate-x-[500px] p-4 text-white '>Hello Home</h1>
          </div>
         </div>
   )
