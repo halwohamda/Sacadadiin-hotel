@@ -13,6 +13,8 @@ import Payment from './Components/Pages/Payment/Payment.jsx';
 import Login from './Components/Pages/Login/Login.jsx';
 import Logout from './Components/Pages/Logout/Logout.jsx';
 import RoomType from './Components/Pages/RoomType/RoomType.jsx';
+//End points
+import Post from './Components/Pages/Hotel/Post.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -42,6 +44,11 @@ const router = createBrowserRouter([
         path: '/Booking',
         element: <Booking />
       },
+      //Hotel End points
+      {
+        path: '/Post',
+        element: <Post/>
+      },
       {
         path: '/Guest',
         element: <Guest />
@@ -58,6 +65,7 @@ const router = createBrowserRouter([
         path: '/Logout',
         element: <Logout />
       },
+     
      
     ]
   }
