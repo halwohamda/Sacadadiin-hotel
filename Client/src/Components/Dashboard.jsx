@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import { FaHotel } from "react-icons/fa6";
 import { FaUserCircle } from "react-icons/fa";
 import { MdLocalHotel } from "react-icons/md";
+import { IoBedSharp } from "react-icons/io5";
 
 const Dashboard = () => {
   return (
@@ -30,7 +31,9 @@ const Dashboard = () => {
                 Room</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/RoomType'>RoomType</Link>
+              <Link to='/RoomType'>
+              <IoBedSharp className='inline-block -translate-x-2'  />
+                RoomType</Link>
             </ul>
             
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
