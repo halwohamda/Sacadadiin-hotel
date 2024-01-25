@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { FaHotel } from "react-icons/fa6";
 import { FaUserCircle } from "react-icons/fa";
+import { MdLocalHotel } from "react-icons/md";
 
 const Dashboard = () => {
   return (
@@ -24,7 +25,9 @@ const Dashboard = () => {
                 Employee</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/Room'>Room</Link>
+              <Link to='/Room'>
+              <MdLocalHotel className='inline-block -translate-x-2' />
+                Room</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
               <Link to='/RoomType'>RoomType</Link>
