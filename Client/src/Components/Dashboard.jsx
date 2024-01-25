@@ -5,7 +5,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { MdLocalHotel } from "react-icons/md";
 import { IoBedSharp } from "react-icons/io5";
 import { MdEditNote } from "react-icons/md";
-
+import { FaUserTie } from "react-icons/fa";
 const Dashboard = () => {
   return (
     <div>
@@ -43,7 +43,9 @@ const Dashboard = () => {
                 Booking</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/Guest'>Guest</Link>
+              <Link to='/Guest'>
+              <FaUserTie className='inline-block -translate-x-2'  />
+                Guest</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
               <Link to='/Payment'>Payment</Link>
