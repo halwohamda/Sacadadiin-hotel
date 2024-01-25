@@ -10,6 +10,7 @@ import { VscReport } from "react-icons/vsc";
 import { MdPayments } from "react-icons/md";
 import { CiSettings } from "react-icons/ci";
 import { CiLogin } from "react-icons/ci";
+import { CiLogout } from "react-icons/ci";
 const Dashboard = () => {
   return (
     <div>
@@ -72,7 +73,9 @@ const Dashboard = () => {
                 Login</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/Logout'>Logout</Link>
+              <Link to='/Logout'>
+              <CiLogout className='inline-block -translate-x-2'  />
+                Logout</Link>
             </ul>
         </nav>
       </div>
