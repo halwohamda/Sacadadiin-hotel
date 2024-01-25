@@ -15,6 +15,7 @@ import Logout from './Components/Pages/Logout/Logout.jsx';
 import RoomType from './Components/Pages/RoomType/RoomType.jsx';
 //End points
 import Post from './Components/Pages/Hotel/Post.jsx';
+import Update from './Components/Pages/Hotel/Update.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: '/Post',
         element: <Post/>
+      },
+      {
+        path: '/Update',
+        element: <Update/>
       },
       {
         path: '/Guest',
