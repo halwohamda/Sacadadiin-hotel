@@ -6,6 +6,7 @@ import { MdLocalHotel } from "react-icons/md";
 import { IoBedSharp } from "react-icons/io5";
 import { MdEditNote } from "react-icons/md";
 import { FaUserTie } from "react-icons/fa";
+import { VscReport } from "react-icons/vsc";
 import { MdPayments } from "react-icons/md";
 const Dashboard = () => {
   return (
@@ -54,7 +55,9 @@ const Dashboard = () => {
                 Payment</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/Report'>Report</Link>
+              <Link to='/Report'>
+              <VscReport className='inline-block -translate-x-2'  />
+                Report</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
               <Link to='/Settings'>Settings</Link>
