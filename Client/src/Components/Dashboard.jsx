@@ -4,6 +4,7 @@ import { FaHotel } from "react-icons/fa6";
 import { FaUserCircle } from "react-icons/fa";
 import { MdLocalHotel } from "react-icons/md";
 import { IoBedSharp } from "react-icons/io5";
+import { MdEditNote } from "react-icons/md";
 
 const Dashboard = () => {
   return (
@@ -37,7 +38,9 @@ const Dashboard = () => {
             </ul>
             
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/Booking'>Booking</Link>
+              <Link to='/Booking'>
+              <MdEditNote  className='inline-block -translate-x-2' />
+                Booking</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
               <Link to='/Guest'>Guest</Link>
