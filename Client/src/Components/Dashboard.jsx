@@ -6,6 +6,7 @@ import { MdLocalHotel } from "react-icons/md";
 import { IoBedSharp } from "react-icons/io5";
 import { MdEditNote } from "react-icons/md";
 import { FaUserTie } from "react-icons/fa";
+import { MdPayments } from "react-icons/md";
 const Dashboard = () => {
   return (
     <div>
@@ -48,7 +49,9 @@ const Dashboard = () => {
                 Guest</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/Payment'>Payment</Link>
+              <Link to='/Payment'>
+              <MdPayments  className='inline-block -translate-x-2'    />
+                Payment</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
               <Link to='/Report'>Report</Link>
