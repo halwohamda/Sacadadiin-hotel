@@ -19,8 +19,8 @@ const Home = () => {
           <th className='w-[140px]'>Address</th>
           <th className='w-[140px]'>Email</th>
           <th className='w-[140px]'>Phone</th>
-          <th className='w-[140px]'>Check in</th>
-          <th className='w-[140px]'>Check out</th>
+          <th className='w-[140px]'>Actions</th>
+         
          </tr>
         </thead>
         <tbody>
@@ -30,8 +30,17 @@ const Home = () => {
             <td className='bg-orange-200  text-center translate-y-2'>jijiga</td>
             <td className='bg-orange-200  text-center translate-y-2'>Sahal@Email.com</td>
             <td className='bg-orange-200  text-center translate-y-2'>1223434656889</td>
-            <td className='bg-orange-200  text-center translate-y-2'>7:00am</td>
-            <td className='bg-orange-200  text-center translate-y-2'>9:00pm</td>
+
+            <div className=" flex">
+              <div className='flex'>
+                <button className='bg-green-600 text-white px-3 translate-y-2 border-2'>
+                  <Link to="/Update">
+                  Update
+                  </Link>
+               </button>
+                <button  className='bg-red-600 text-white px-3 translate-y-2 border-2'>Delete</button>
+              </div>
+            </div>
           </tr>
         </tbody>
        </table>
