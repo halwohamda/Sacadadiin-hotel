@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom'
 import { IoIosAddCircle } from "react-icons/io";
 
 const Home = () => {
+  const handleDelete=()=>{
+    alert('Deleted!')
+  }
   return (
     <div>
     <div className="container -translate-y-[470px]">
@@ -38,7 +41,7 @@ const Home = () => {
                   Update
                   </Link>
                </button>
-                <button  className='bg-red-600 text-white px-3 translate-y-2 border-2'>Delete</button>
+                <button onClick={handleDelete}  className='bg-red-600 text-white px-3 translate-y-2 border-2'>Delete</button>
               </div>
             </div>
           </tr>
