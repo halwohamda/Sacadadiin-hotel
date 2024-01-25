@@ -9,6 +9,7 @@ import { FaUserTie } from "react-icons/fa";
 import { VscReport } from "react-icons/vsc";
 import { MdPayments } from "react-icons/md";
 import { CiSettings } from "react-icons/ci";
+import { CiLogin } from "react-icons/ci";
 const Dashboard = () => {
   return (
     <div>
@@ -66,7 +67,9 @@ const Dashboard = () => {
                 Settings</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/Login'>Login</Link>
+              <Link to='/Login'>
+              <CiLogin className='inline-block -translate-x-2'   />
+                Login</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
               <Link to='/Logout'>Logout</Link>
