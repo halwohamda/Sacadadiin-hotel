@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { FaHotel } from "react-icons/fa6";
+import { FaUserCircle } from "react-icons/fa";
 
 const Dashboard = () => {
   return (
@@ -9,13 +11,17 @@ const Dashboard = () => {
       <h1 className='text-white text-4xl text-center font-extrabold capitalize'>sacadadiin hotel</h1>
       </div>
       <div className="mainsection flex">
-      <div className="menus bg-orange-600 w-[150px] p-6">
+      <div className="menus bg-orange-600 w-[190px] p-6">
         <nav>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/hotel'>Hotel</Link>
+              <Link to='/hotel'>
+              <FaHotel className='inline-block -translate-x-2' />
+                Hotel</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
-              <Link to='/Employee'>Employee</Link>
+              <Link to='/Employee'>
+              <FaUserCircle className='inline-block -translate-x-2'  />
+                Employee</Link>
             </ul>
             <ul className='bg-white text-orange-600 rounded-lg mt-3 m-auto px-2 hover:bg-orange-600 hover:text-white hover:border-2'>
               <Link to='/Room'>Room</Link>
