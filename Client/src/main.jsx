@@ -13,9 +13,11 @@ import Payment from './Components/Pages/Payment/Payment.jsx';
 import Login from './Components/Pages/Login/Login.jsx';
 import Logout from './Components/Pages/Logout/Logout.jsx';
 import RoomType from './Components/Pages/RoomType/RoomType.jsx';
-//End points
+//End points Hotel
 import Post from './Components/Pages/Hotel/Post.jsx';
 import Update from './Components/Pages/Hotel/Update.jsx';
+// End Point Employee
+import PostEmployee from './Components/Pages/Employee/PostEmployee.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -70,6 +72,11 @@ const router = createBrowserRouter([
         path: '/Logout',
         element: <Logout />
       },
+      // End Points Employee
+      {
+        path: '/PostEmployee',
+        element: <PostEmployee/>
+      }
      
      
     ]
