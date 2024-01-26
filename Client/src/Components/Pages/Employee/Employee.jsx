@@ -17,17 +17,17 @@ const Employee = () => {
      <table className='translate-x-[190px] ml-2'>
        <thead className=' bg-gray-400 text-white'>
          <tr className=''>
-           <th className=' w-[88px]'>Employee_id</th>
-           <th className=' w-[88px]'>FirstName</th>
-           <th className=' w-[88px]'>MiddleName</th>
-           <th className=' w-[88px]'>LastName</th>
-           <th className=' w-[88px]'>Phone</th>
-           <th className=' w-[88px]'>Email</th>
-           <th className=' w-[88px]'>Position</th>
-           <th className=' w-[88px]'>Salary</th>
-           <th className=' w-[88px]'>Hire_Date</th>
-           <th className=' w-[88px]'>Hotel_Id</th>
-           <th className=' w-[88px]'>Actions</th>
+           <th className=' w-[75px]'>Employee_id</th>
+           <th className=' w-[75px]'>FirstName</th>
+           <th className=' w-[75px]'>MiddleName</th>
+           <th className=' w-[75px]'>LastName</th>
+           <th className=' w-[75px]'>Phone</th>
+           <th className=' w-[75px]'>Email</th>
+           <th className=' w-[75px]'>Position</th>
+           <th className=' w-[75px]'>Salary</th>
+           <th className=' w-[75px]'>Hire_Date</th>
+           <th className=' w-[75px]'>Hotel_Id</th>
+           <th className=' w-[75px]'>Actions</th>
          </tr>
        </thead>
        <tbody>
