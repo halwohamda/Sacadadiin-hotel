@@ -10,7 +10,7 @@ const Guest = () => {
     <div>
      <div className="container -translate-y-[470px]">
       <div className="add ml-[1200px] text-6xl text-green-600">
-        <Link to='/PostEmployee'>
+        <Link to='/PostGuest'>
         <MdAddBox />
         </Link>
       </div>
@@ -34,14 +34,10 @@ const Guest = () => {
           <td className='text-center bg-gray-200 translate-y-2 '>Ali</td>
           <td className='text-center bg-gray-200 translate-y-2 '>1234667</td>
           <td className='text-center bg-gray-200 translate-y-2 '>Maria@hotmail.com</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>Manager</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>5000</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>2024-1-26</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>5</td>
          <div className="btns flex">
          <div className="update">
           <button className='bg-orange-600 px-4 border-2 border-white translate-y-2 text-white'>
-            <Link to='/UpdateEmployee'>Update</Link>
+            <Link to='/UpdateGuest'>Update</Link>
           </button>
           </div>
          <div className="delete">
