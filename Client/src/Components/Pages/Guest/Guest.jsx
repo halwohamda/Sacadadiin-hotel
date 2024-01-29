@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { MdAddBox } from "react-icons/md";
 
-const Employee = () => {
+const Guest = () => {
   const handleDelete=()=>{
     alert("Deleted!")
   }
@@ -62,4 +62,4 @@ const Employee = () => {
   )
 }
 
-export default Employee
+export default Guest
