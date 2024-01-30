@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { RiArrowGoBackFill } from "react-icons/ri";
-const UpdateEmployee = () => {
+const UpdateBooking = () => {
   return (
     <div>
      <div className="container -translate-y-[300px]">
