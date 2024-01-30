@@ -5,7 +5,7 @@ const UpdateRoomType = () => {
   return (
     <div>
      <div className="container -translate-y-[300px]">
-        <h1 className='text-center text-4xl -translate-y-24 ml-44 font-bold uppercase text-orange-600 underline'>Update Booking</h1>
+        <h1 className='text-center text-4xl -translate-y-24 ml-44 font-bold uppercase text-orange-600 underline'>Update RoomType</h1>
       <form className='ml-[500px] -translate-y-[100px] shadow-md shadow-gray-200 p-4 w-[500px]'>
         <input type="number" placeholder='booking_id' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg ' /> 
         <input type="number" placeholder='RoomNumer' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg ml-2' />
