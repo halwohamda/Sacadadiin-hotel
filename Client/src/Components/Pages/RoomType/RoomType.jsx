@@ -37,7 +37,7 @@ const RoomType = () => {
          <div className="btns flex">
          <div className="update">
           <button className='bg-orange-600 px-4 border-2 border-white translate-y-2 text-white'>
-            <Link to='/UpdateBooking'>Update</Link>
+            <Link to='/UpdateRoomType'>Update</Link>
           </button>
           </div>
          <div className="delete">
