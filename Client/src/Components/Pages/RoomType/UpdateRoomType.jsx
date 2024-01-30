@@ -15,7 +15,7 @@ const UpdateRoomType = () => {
         <input type="submit" className='pt-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 w-[444px] bg-orange-600 text-2xl text-white border-0' /> <br />
       </form>
      <div className="box ml-[1200px] -mt-[440px] text-4xl">
-      <Link to='/Booking'>
+      <Link to='/RoomType'>
      <div className="back bg-gray-200 w-16 rounded-lg text-white px-4">
      <RiArrowGoBackFill />
      </div>
