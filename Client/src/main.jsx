@@ -21,6 +21,9 @@ import PostEmployee from './Components/Pages/Employee/PostEmployee.jsx';
 import UpdateEmployee from './Components/Pages/Employee/UpdateEmployee.jsx';
 import UpdateGuest from './Components/Pages/Guest/UpdateGuest.jsx';
 import PostGuest from './Components/Pages/Guest/PostGuest.jsx';
+
+//booking
+import UpdateBooking from './Components/Pages/Booking/UpdateBooking.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -50,6 +53,13 @@ const router = createBrowserRouter([
         path: '/Booking',
         element: <Booking />
       },
+
+      /// booking endpoints
+      {
+        path: '/UpdateBooking',
+        element: <UpdateBooking/>
+      },
+      {},
       //Hotel End points
       {
         path: '/Post',
