@@ -34,7 +34,6 @@ const Booking = () => {
           <td className='text-center bg-gray-200 translate-y-2 '>2500</td>
           <td className='text-center bg-gray-200 translate-y-2 '>1/1/2024</td>
           <td className='text-center bg-gray-200 translate-y-2 '>1/10/2024</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>Manager</td>
          <div className="btns flex">
          <div className="update">
           <button className='bg-orange-600 px-4 border-2 border-white translate-y-2 text-white'>
