@@ -17,24 +17,22 @@ const RoomType = () => {
      <table className='translate-x-[190px] ml-2'>
        <thead className=' bg-gray-400 text-white'>
          <tr className=''>
-           <th className=' w-[75px]'>Booking_id</th>
-           <th className=' w-[75px]'>Room_Numer</th>
-           <th className=' w-[75px]'>Guest_Id</th>
-           <th className=' w-[75px]'>Totalprice</th>
-           <th className=' w-[75px]'>Cheack_In</th>
-           <th className=' w-[75px]'>Check_OUT</th>
+           <th className=' w-[75px]'>RoomType_id</th>
+           <th className=' w-[75px]'>Name</th>
+           <th className=' w-[75px]'>Pricepernight</th>
+           <th className=' w-[75px]'>Description</th>
+           <th className=' w-[75px]'>capacity</th>
            <th className=' w-[75px]'>Actions</th>
          </tr>
        </thead>
        <tbody>
         <tr>
           <td className='text-center bg-gray-200 translate-y-2 '>1</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>4</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>2</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>2500</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>1/1/2024</td>
-          <td className='text-center bg-gray-200 translate-y-2 '>1/10/2024</td>
-         <div className="btns flex">
+          <td className='text-center bg-gray-200 translate-y-2 '>halwo</td>
+          <td className='text-center bg-gray-200 translate-y-2 '>25000</td>
+          <td className='text-center bg-gray-200 translate-y-2 '>fast wi-fi</td>
+          <td className='text-center bg-gray-200 translate-y-2 '>1</td>
+           <div className="btns flex">
          <div className="update">
           <button className='bg-orange-600 px-4 border-2 border-white translate-y-2 text-white'>
             <Link to='/UpdateRoomType'>Update</Link>
