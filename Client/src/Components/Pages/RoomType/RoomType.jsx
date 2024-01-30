@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { MdAddBox } from "react-icons/md";
 
-const Booking = () => {
+const RoomType = () => {
   const handleDelete=()=>{
     alert("Deleted Booking!")
   }
