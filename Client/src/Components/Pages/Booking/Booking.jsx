@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { MdAddBox } from "react-icons/md";
 
-const Employee = () => {
+const Booking = () => {
   const handleDelete=()=>{
     alert("Deleted!")
   }
