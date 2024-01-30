@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { RiArrowGoBackFill } from "react-icons/ri";
-const PostBooking = () => {
+const PostRoomType = () => {
   return (
     <div>
      <div className="container -translate-y-[400px]">
