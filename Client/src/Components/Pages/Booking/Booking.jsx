@@ -17,16 +17,12 @@ const Booking = () => {
      <table className='translate-x-[190px] ml-2'>
        <thead className=' bg-gray-400 text-white'>
          <tr className=''>
-           <th className=' w-[75px]'>Employee_id</th>
-           <th className=' w-[75px]'>FirstName</th>
-           <th className=' w-[75px]'>MiddleName</th>
-           <th className=' w-[75px]'>LastName</th>
-           <th className=' w-[75px]'>Phone</th>
-           <th className=' w-[75px]'>Email</th>
-           <th className=' w-[75px]'>Position</th>
-           <th className=' w-[75px]'>Salary</th>
-           <th className=' w-[75px]'>Hire_Date</th>
-           <th className=' w-[75px]'>Hotel_Id</th>
+           <th className=' w-[75px]'>Booking_id</th>
+           <th className=' w-[75px]'>Room_Numer</th>
+           <th className=' w-[75px]'>Guest_Id</th>
+           <th className=' w-[75px]'>Totalprice</th>
+           <th className=' w-[75px]'>Cheack_In</th>
+           <th className=' w-[75px]'>Check_OUT</th>
            <th className=' w-[75px]'>Actions</th>
          </tr>
        </thead>
