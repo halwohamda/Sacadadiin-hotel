@@ -15,7 +15,7 @@ const PostBooking = () => {
         <input type="Date" placeholder='CheckOut' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 ml-2' />
       </form>
      <div className="box ml-[1250px] -mt-[440px] text-4xl">
-      <Link to='/Employee'>
+      <Link to='/Booking'>
      <div className="back bg-gray-200 w-16 rounded-lg text-white px-4">
      <RiArrowGoBackFill />
      </div>
