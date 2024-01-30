@@ -7,15 +7,12 @@ const PostBooking = () => {
      <div className="container -translate-y-[400px]">
         <h1 className='text-center text-4xl -translate-y-24 ml-44 font-bold uppercase text-gray-300 underline'>Register Booking</h1>
       <form className='ml-[500px] -translate-y-[100px] shadow-md shadow-gray-200 p-4 w-[500px]'>
-        <input type="text" placeholder='Booking_id' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg ' /> 
-        <input type="text" placeholder='Guest_id' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg ml-2' />
-        <input type="text" placeholder='RoomNumber' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg ' />
-        <input type="text" placeholder='Totakprice' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 ml-2' /> <br />
-        <input type="text" placeholder='CheckIn' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 ' /> 
-        <input type="text" placeholder='CheckOut' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 ml-2' /> 
-        <input type="number" placeholder='Salary' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg ' /> 
-        <input type="Date" placeholder='' className='pt-2 border-2 px-[38px] justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 ml-2' /> 
-        <input type="submit" className='pt-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 w-[444px] bg-green-400 text-2xl text-white border-0' /> <br />
+        <input type="number" placeholder='Booking_id' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg ' /> 
+        <input type="number" placeholder='Guest_id' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg ml-2' />
+        <input type="number" placeholder='RoomNumber' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg ' />
+        <input type="number" placeholder='Totakprice' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 ml-2' /> <br />
+        <input type="Date" placeholder='CheckIn' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 ' /> 
+        <input type="Date" placeholder='CheckOut' className='pt-2 border-2 px-4 justify-center m-auto translate-x-2 p-2 rounded-lg mt-2 ml-2' />
       </form>
      <div className="box ml-[1250px] -mt-[440px] text-4xl">
       <Link to='/Employee'>
