@@ -4,7 +4,7 @@ import { MdAddBox } from "react-icons/md";
 
 const RoomType = () => {
   const handleDelete=()=>{
-    alert("Deleted Booking!")
+    alert("Deleted RoomType!")
   }
   return (
     <div>
