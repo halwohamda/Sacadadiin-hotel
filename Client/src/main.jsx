@@ -24,6 +24,7 @@ import PostGuest from './Components/Pages/Guest/PostGuest.jsx';
 
 //booking
 import UpdateBooking from './Components/Pages/Booking/UpdateBooking.jsx';
+import PostBooking from './Components/Pages/Booking/PostBooking.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -59,7 +60,10 @@ const router = createBrowserRouter([
         path: '/UpdateBooking',
         element: <UpdateBooking/>
       },
-      {},
+      {
+        path: '/PostBooking',
+        element: <PostBooking/>
+      },
       //Hotel End points
       {
         path: '/Post',
