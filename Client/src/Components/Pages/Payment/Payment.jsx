@@ -10,7 +10,7 @@ const Payment = () => {
     <div>
      <div className="container -translate-y-[470px]">
       <div className="add ml-[1200px] text-6xl text-green-600">
-        <Link to='/PostGuest'>
+        <Link to='/PostPayment'>
         <MdAddBox />
         </Link>
       </div>
