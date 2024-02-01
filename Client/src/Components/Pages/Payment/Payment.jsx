@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { MdAddBox } from "react-icons/md";
 
-const Guest = () => {
+const Payment = () => {
   const handleDelete=()=>{
     alert("Deleted!")
   }
