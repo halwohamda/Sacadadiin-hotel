@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { RiArrowGoBackFill } from "react-icons/ri";
-const UpdatePayment = () => {
+const PostPayment = () => {
   return (
     <div>
      <div className="container -translate-y-[300px]">
@@ -32,4 +32,4 @@ const UpdatePayment = () => {
   )
 }
 
-export default UpdatePayment
+export default PostPayment
