@@ -27,6 +27,7 @@ import UpdateBooking from './Components/Pages/Booking/UpdateBooking.jsx';
 import PostBooking from './Components/Pages/Booking/PostBooking.jsx';
 import UpdateRoomType from './Components/Pages/RoomType/UpdateRoomType.jsx';
 import PostRoomType from './Components/Pages/RoomType/PostRoomType.jsx';
+import PostPayment from './Components/Pages/Payment/PostPayment.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -91,6 +92,14 @@ const router = createBrowserRouter([
       {
         path: '/Payment',
         element: <Payment />
+      },
+      /// Paymend END points
+      {
+        path: '/PostPayment',
+        element: <PostPayment/>
+      },
+      {
+        
       },
       {
         path: '/Login',
